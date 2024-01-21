@@ -6,7 +6,6 @@ import Flea from './routes/fleamarket.js'
 
 function App() {
   return (
-    
     <div className='App'>
       <Navbar bg="white" className='main-navbar'>
         <Container className='navcomponet'>
