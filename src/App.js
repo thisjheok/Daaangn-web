@@ -25,7 +25,6 @@ function App() {
         <Route path="/" element={
           <>
           <div className='main-banner'>
-
             <div className='main-letters'>
               <h1 className='main-title'>당신 근처의 지역생활 커뮤니티</h1>
               <p className='main-sub'>동네라서 가능한 모든 것<br></br>
