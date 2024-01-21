@@ -1,0 +1,252 @@
+.App {
+  text-align: left;
+}
+.main-navbar{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+body{
+  background-color: rgb(245, 244, 244);
+}
+.logoimg{
+  width: 60px;
+  height: 30px;
+}
+a {
+  text-decoration-line: none;
+}
+.main-banner{
+  background-color:rgb(241, 241, 202);
+  padding:200px;
+}
+
+.search{
+  background-color: rgb(231, 231, 231);
+  margin-right: 20px;
+  border:rgb(223, 223, 223);
+  border-radius: 5px;
+  padding: 5px;
+  outline:none;
+}
+
+.search::placeholder{
+  color: rgb(116, 116, 116);
+  font-size: 13px;
+}
+
+.chatting{
+  background-color: white;
+  color: black;
+  border:rgb(224, 224, 224) 1px solid;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+.chatting:hover{
+  background-color: rgb(214, 214, 214);
+  border:white;
+}
+
+
+
+.main-sub{
+  color:rgb(107, 107, 107);
+}
+
+.main-title{
+  font-weight: bold;
+}
+.main-letters{
+  margin-left: 450px;
+}
+.main-buttons{
+  background-color: #ff8400;
+  border: none;
+  font-weight: bold;
+  color: white;
+}
+.main-buttons:hover{
+  background-color: #dd7200;
+  color: white;
+}
+
+.me-auto{
+  margin-left: 10px;
+  font-weight: bold;
+  font-size: 19px;
+}
+.brand{
+  color:coral;
+  font-weight: 800;
+}
+.brand:hover{
+  color:coral;
+}
+
+.second-banner{
+  padding:200px;
+  margin-left: 1150px;
+}
+
+.sec-title{
+  font-weight: bold;
+
+}
+
+.sec-buttons{
+  background-color: #e2e2e2;
+  color: black;
+  border: none;
+  font-weight: bold;
+}
+
+.sec-buttons:hover{
+  background-color: #b3b3b2;
+  color: black;
+}
+
+.sec{
+  font-weight: bold;
+  color:coral;
+}
+
+.third-banner{
+  padding:200px;
+  background-color: #ffefde;
+}
+.third-banner-content{
+  margin-left: 450px;
+}
+
+.third-detail{
+  font-weight: bold;
+  padding: 5px; /* 원하는 값으로 조정 (예: padding: 0 10px;) */
+  margin: 0;
+}
+.third-detail2{
+  padding: 0; /* 원하는 값으로 조정 (예: padding: 0 10px;) */
+  margin: 0;
+}
+
+.third-box{
+  border: none;
+  height: 100px;
+  width: 150px;
+  margin-bottom: 10px;
+  margin-right: 10px; 
+}
+
+.third-container{
+  display: flex;
+  flex-wrap: wrap; /* 내용이 한 줄에 모두 들어가지 않을 경우 다음 줄에 표시되도록 설정 */
+}
+
+.fourth-banner{
+  padding:200px;
+  background-color: #eefdf1;
+}
+
+.fourth-banner-content{
+  margin-left: 450px;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.flea-cover{
+  height: 315px;
+  padding: 0 16px 0 16px;
+  background-color: #FFF1AA;
+  margin-top: 30px;
+}
+
+.flea-cover-content{
+  padding-top: 100px;
+  max-width: 768px;
+  margin: 0 auto;
+}
+.flea-list{
+  padding-top: 64px;
+  text-align:  center;
+}
+
+.flea-items{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.card-imgs.img{
+  width: 100%;
+  padding-top: 100%;
+  position: relative;
+  overflow: hidden;
+  border-radius: 12px;
+  background-color: #F8F9FA;
+  box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.15);
+  box-sizing: border-box;
+}
+
+.flea-title-div{
+  margin-bottom: 40px;
+}
+
+.flea-list-title{
+  font-weight: bold;
+  font-size: 31px;
+}
+
+.flea-title{
+  font-weight: bold;
+}
+.card-desc{
+  
+}
+.card-title{
+
+}
+
+.card-price{
+  font-weight: bold;
+}
+
+.card-place{
+  font-size: 12px;
+  margin-bottom: 30px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
