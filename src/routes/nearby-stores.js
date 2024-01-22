@@ -21,7 +21,7 @@ function Nearbystores(){
         </div>
     </section>
     <div className="nearby-stores1">
-        <h3 className="nearby-stores-letters">다양한 동네 업체를 볼 수 있어요</h3>
+        <h3 className="nearby-stores-letters1">다양한 동네 업체를 볼 수 있어요</h3>
     </div>    
     
     <div className='nearby-tabs'>
@@ -29,18 +29,22 @@ function Nearbystores(){
     </div>
 
     <div className="nearby-stores1-content">
-    <Container>
+    <Container className='container1'>
       <Row>
-        <Col>1 of 2</Col>
-        <Col>2 of 2</Col>
+        <Col><NearbystoresDetail/></Col>
+        <Col><NearbystoresDetail/></Col>
       </Row>
       <Row>
-        <Col>1 of 3</Col>
-        <Col>2 of 3</Col>
+        <Col><NearbystoresDetail/></Col>
+        <Col><NearbystoresDetail/></Col>
       </Row>
       <Row>
-        <Col>1 of 3</Col>
-        <Col>2 of 3</Col>
+        <Col><NearbystoresDetail/></Col>
+        <Col><NearbystoresDetail/></Col>
+      </Row>
+      <Row>
+        <Col><NearbystoresDetail/></Col>
+        <Col><NearbystoresDetail/></Col>
       </Row>
     </Container>
     </div>
@@ -48,8 +52,8 @@ function Nearbystores(){
     <div className="nearby-stores2">
         <h3 className="nearby-stores-letters">동네 이웃이 남긴 후기를 찾아보세요</h3>
     </div>
-    <div className="nearby-stores1-content">
-    <Container>
+    <div className="nearby-stores2-content">
+    <Container className='container2'>
       <Row>
         <Col><NearbyReviews stores={stores[0]}/></Col>
         <Col><NearbyReviews stores={stores[1]}/></Col>
@@ -97,5 +101,33 @@ function NearbyReviews(props){
     )
 }
 
+function NearbystoresDetail(props){
+    return(
+        <>
+            <div className='nbystore'>
+                <div className='nbyimg'>
+                    <img className='nbyprofileimg' src="img/fleaimg.png"></img>
+                </div>
+                <div className='nbycontent'>
+                <div className='nbyprofile'>
+                    <span className='nbytitle'>가게명</span>
+                    <span className='nbylocation'>위치</span>
+                </div>
+                <div className='nbyintrobox'>
+                    <span className='nbyintro'>가게 소개</span>
+                </div>
+                <div className='nbycountbox'>
+                    <span className='nbycount'>
+                    후기 단골 가게종류
+                    </span>
+            </div>
+                </div>
+        </div>
+        <div className='nbybotm'>
+        </div>
+        </>
+        
+    )
+}
 
 export default Nearbystores
