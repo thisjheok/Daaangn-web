@@ -33,6 +33,9 @@ return(
                 </div>
         </div>
     </section>
+    <div className="credit-banner">
+
+    </div>
 </>
 )
 }
