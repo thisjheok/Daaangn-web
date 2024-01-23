@@ -57,15 +57,20 @@ a {
   padding-top: 20px;
   padding-bottom :10px;
   font-size: 20px;
+  overflow: hiddlen;
+  white-space: nowrap;
 }
 
 .main-title{
   font-weight: bold;
   font-size: 60px;
+  overflow: hiddlen;
+  white-space: nowrap;
 }
 .main-letters{
   margin-left: 450px;
   margin-top: 120px;
+  
 }
 .main-buttons{
   background-color: #ff8400;
@@ -74,6 +79,8 @@ a {
   color: white;
   width: 150px;
   height: 50px;
+  overflow: hiddlen;
+  white-space: nowrap;
 }
 .main-buttons:hover{
   background-color: #dd7200;
@@ -89,6 +96,8 @@ a {
   margin-left: 10px;
   font-weight: bold;
   font-size: 19px;
+  overflow: hiddlen;
+  white-space: nowrap;
 }
 .brand{
   color:coral;
@@ -101,11 +110,13 @@ a {
 .second-banner{
   padding:200px;
   margin-left: 1150px;
+  
 }
 
 .sec-title{
   font-weight: bold;
-
+  overflow: hiddlen;
+  white-space: nowrap;
 }
 
 .sec-buttons{
@@ -113,6 +124,8 @@ a {
   color: black;
   border: none;
   font-weight: bold;
+  overflow: hiddlen;
+  white-space: nowrap;
 }
 
 .sec-buttons:hover{
@@ -123,6 +136,8 @@ a {
 .sec{
   font-weight: bold;
   color:coral;
+  overflow: hiddlen;
+  white-space: nowrap;
 }
 
 .third-banner{
@@ -153,7 +168,7 @@ a {
 
 .third-container{
   display: flex;
-  flex-wrap: wrap; /* 내용이 한 줄에 모두 들어가지 않을 경우 다음 줄에 표시되도록 설정 */
+  
 }
 
 .fourth-banner{
@@ -408,6 +423,29 @@ a {
 .container2{
   width: 1100px;
 }
+
+.job-cover{
+  height: 315px;
+  padding: 0 16px 0 16px;
+  background-color: #ffe2d0;
+  margin-top: 30px;
+}
+
+.job-cover-content{
+  padding-top: 100px;
+  max-width: 768px;
+  margin: 0 auto;
+}
+
+.job-stores1{
+  margin-left: 480px;
+  margin-top: 70px;
+}
+
+.job-stores-letters1{
+  font-weight: bold;
+}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

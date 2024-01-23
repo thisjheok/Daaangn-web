@@ -4,6 +4,7 @@ import { Routes, Route, Link,NavLink } from 'react-router-dom'
 import './App.css';
 import Flea from './routes/fleamarket.js'
 import Nearbystores from './routes/nearby-stores.js'
+import Jobs from './routes/jobs.js';
 
 function App() {
   return (
@@ -122,6 +123,11 @@ function App() {
         <Nearbystores></Nearbystores>
           </>
         }/>
+         <Route path="/jobs" element={
+          <>
+        <Jobs></Jobs>
+          </>
+        }/>       
       </Routes>
 </div>
   );
