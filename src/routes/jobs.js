@@ -29,23 +29,73 @@ function Jobs(){
     <Container className='container1'>
       <Row>
         <Col><Popjob/></Col>
-        <Col></Col>
+        <Col><Popjob/></Col>
       </Row>
       <Row>
-        <Col></Col>
-        <Col></Col>
+        <Col><Popjob/></Col>
+        <Col><Popjob/></Col>
       </Row>
       <Row>
-        <Col></Col>
-        <Col></Col>
+        <Col><Popjob/></Col>
+        <Col><Popjob/></Col>
       </Row>
       <Row>
-        <Col></Col>
-        <Col></Col>
+        <Col><Popjob/></Col>
+        <Col><Popjob/></Col>
       </Row>
     </Container>
     </div>
+
+    <div className='jobanner1'>
+        <div className='jobanner1box'>
+            <div></div>
+            <div className='bannerletter1'>
+                대규모 채용이 필요하다면<br></br>
+                당근알바 기업용 서비스에 대해 알아보세요!
+            </div>
+        </div>
+        <div className='bannerbtns'>
+            <Button variant="danger" className='bannerbtn1'>7일 무료 체험</Button>{' '}
+            <Button variant="danger" className='bannerbtn2'>1:1 문의</Button>{' '}
+        </div>
+    </div>
+
+    <div className="nearby-stores1-content">
+    <Container className='container1'>
+      <Row>
+        <Col><Popjob/></Col>
+        <Col><Popjob/></Col>
+      </Row>
+      <Row>
+        <Col><Popjob/></Col>
+        <Col><Popjob/></Col>
+      </Row>
+      <Row>
+        <Col><Popjob/></Col>
+        <Col><Popjob/></Col>
+      </Row>
+      <Row>
+        <Col><Popjob/></Col>
+        <Col><Popjob/></Col>
+      </Row>
+    </Container>
+    </div>
+    <div className='jobanner1'>
+        <div className='jobanner1box'>
+            <div></div>
+            <div className='bannerletter1'>
+                대규모 채용이 필요하다면<br></br>
+                당근알바 기업용 서비스에 대해 알아보세요!
+            </div>
+        </div>
+        <div className='bannerbtns'>
+            <Button variant="danger" className='bannerbtn3'>7일 무료 체험</Button>{' '} 
+        </div>
+    </div>
+    <div className="credit-banner">
+    </div>
         </>
+        
     )
 }
 
@@ -53,25 +103,22 @@ function Popjob(props){
     return(
         <>
         <div className='nbystore'>
-            <div className='nbyimg'>
+            <div className='jobimg'>
                 <img className='nbyprofileimg' src="img/fleaimg.png"></img>
             </div>
             <div className='nbycontent'>
             <div className='nbyprofile'>
-                <span className='nbytitle'>가게명</span>
-                <span className='nbylocation'>위치</span>
+                <span className='nbytitle'>제목</span>
             </div>
             <div className='nbyintrobox'>
-                <span className='nbyintro'>가게 소개</span>
+                <span className='nbyintro'>업체명 위치</span>
             </div>
             <div className='nbycountbox'>
                 <span className='nbycount'>
-                후기 단골 가게종류
+                월급 
                 </span>
             </div>
             </div>
-    </div>
-    <div className='nbybotm'>
     </div>
     </>
     )
