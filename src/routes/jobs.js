@@ -8,17 +8,17 @@ function Jobs(){
         <section className="job-cover">
         <div className="job-cover-content">
         <div>
-            <h1 className="job-title">우리 동네에서 찾는</h1>
-            <h1 className="job-title">당근 알바 </h1>
+            <h1 className="nearby-title">우리 동네에서 찾는</h1>
+            <h1 className="nearby-title">당근 알바 </h1>
         </div>
-        <div className="job-detail">
+        <div className="nearby-detail">
             <p>걸어서 10분 거리의
                 <br></br>
         동네 알바들 여기 다 있어요.
             </p>
         </div>
         <div className="job-btn">
-        <Button variant="danger">공고 올리기</Button>{' '}
+        <Button variant="danger" className='job-button'>공고 올리기</Button>{' '}
             </div>
         </div>
     </section>
@@ -80,16 +80,16 @@ function Jobs(){
       </Row>
     </Container>
     </div>
-    <div className='jobanner1'>
+    <div className='jobanner2'>
         <div className='jobanner1box'>
             <div></div>
             <div className='bannerletter1'>
-                대규모 채용이 필요하다면<br></br>
-                당근알바 기업용 서비스에 대해 알아보세요!
+                당근알바 이용방법이 궁금하다면<br></br>
+                지금 바로 알아보세요!
             </div>
         </div>
-        <div className='bannerbtns'>
-            <Button variant="danger" className='bannerbtn3'>7일 무료 체험</Button>{' '} 
+        <div className='bannerbtns2'>
+            <Button variant="danger" className='bannerbtn3'>이용 방법 알아보기</Button>{' '} 
         </div>
     </div>
     <div className="credit-banner">
