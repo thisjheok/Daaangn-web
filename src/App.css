@@ -614,6 +614,7 @@ a {
 }
 
 .realitem-imgbox2{
+  z-index: -1;
   box-sizing: border-box;
     display: block;
     overflow: hidden;
@@ -673,6 +674,7 @@ a {
 }
 
 .realbanner{
+  z-index: -1;
   display: flex;
   justify-content: space-between;
   align-items: center;

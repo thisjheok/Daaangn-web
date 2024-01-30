@@ -6,7 +6,8 @@ import Flea from './routes/fleamarket.js'
 import Nearbystores from './routes/nearby-stores.js'
 import Jobs from './routes/jobs.js';
 import Realty from './routes/realty.js';
-
+import Car from './routes/car.js';
+ 
 function App() {
   return (
     <div className='App'>
@@ -133,7 +134,12 @@ function App() {
           <>
         <Realty></Realty>
           </>
-        }/>    
+        }/>  
+        <Route path="/car" element={
+          <>
+        <Car></Car>
+          </>
+        }/>           
       </Routes>
 </div>
   );
