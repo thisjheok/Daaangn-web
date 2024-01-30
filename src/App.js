@@ -50,6 +50,7 @@ function App() {
                 <p className='main-sub'>동네 주민들과 가깝고 따뜻한 거래를<br></br>
                     지금 경험해보세요.</p>
                   <Button variant="secondary" className='sec-buttons'>인기매물 보기</Button>{' '}
+                  <br></br>
                   <Button variant="secondary" className='sec-buttons'>믿을 수 있는 중고거래</Button>{' '}
               </div>
             </div>

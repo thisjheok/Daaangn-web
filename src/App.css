@@ -21,6 +21,7 @@ a {
   background-color:rgb(255, 252, 223);
   padding:200px;
   height: 800px;
+  align-items: center;
 }
 
 .search{
@@ -112,6 +113,7 @@ a {
 .second-banner{
   padding:200px;
   margin-left: 1150px;
+  align-items: center;
   
 }
 
@@ -119,15 +121,18 @@ a {
   font-weight: bold;
   overflow: hidden;
   white-space: nowrap;
+  font-size: 40px;
 }
 
 .sec-buttons{
-  background-color: #e2e2e2;
+  font-size: 20px;
+  background-color: #ecebeb;
   color: black;
   border: none;
   font-weight: bold;
   overflow: hidden;
   white-space: nowrap;
+  padding: 10px;
 }
 
 .sec-buttons:hover{
@@ -140,11 +145,13 @@ a {
   color:coral;
   overflow: hidden;
   white-space: nowrap;
+  font-size: 20px;
 }
 
 .third-banner{
   padding:200px;
   background-color: #ffefde;
+  align-items: center;
 }
 .third-banner-content{
   margin-left: 450px;
@@ -176,6 +183,7 @@ a {
 .fourth-banner{
   padding:200px;
   background-color: #eefdf1;
+  align-items: center;
 }
 
 .fourth-banner-content{
@@ -701,6 +709,7 @@ a {
     white-space: pre-line;
 }
 
+.active{}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
